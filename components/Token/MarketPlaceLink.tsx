@@ -39,7 +39,7 @@ const MarketPlaceLinks = ({ id }: { id: string }) => {
 					
 					<a
 						className="text-gray-600 dark:text-gray-300 flex flex-row items-center rounded-md hover:bg-gray-100  dark:hover:bg-gray-700 border-gray-300 bg-white dark:bg-gray-800 dark:border-gray-600 px-3 py-1.5 border transition-colors text-xs xs:text-base ease-in-out opacity-90 shadow-sm"
-						href={`https://songbird-explorer.flare.network/tokens/${process.env.NEXT_PUBLIC_COLLECTION_TOKEN}/instance/${id+1}`}
+						href={`https://flare-explorer.flare.network/tokens/${process.env.NEXT_PUBLIC_COLLECTION_TOKEN}/instance/${id+1}`}
 						target="_blank"
 						rel="noopener noreferrer nofollow"
 					>
@@ -51,7 +51,7 @@ const MarketPlaceLinks = ({ id }: { id: string }) => {
 									height="20px"
 								/>
 							</span>
-							SGBscan
+							FLR Scan
 						</div>
 					</a>
 				</>
